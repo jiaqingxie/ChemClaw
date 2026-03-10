@@ -5,7 +5,7 @@ This repository is a test/example skills pack for chemistry workflows.
 Anyone can install skills from this repo with:
 
 ```bash
-npx skills add little1d/ChemClaw
+npx skills add AI4Chem/ChemClaw
 ```
 
 ## Skill Folder Conventions

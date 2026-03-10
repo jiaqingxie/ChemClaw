@@ -5,19 +5,19 @@ ChemClaw is a public skills package for chemistry-focused AI workflows.
 ## Install
 
 ```bash
-npx skills add little1d/ChemClaw
+npx skills add AI4Chem/ChemClaw
 ```
 
 Install only one skill:
 
 ```bash
-npx skills add little1d/ChemClaw --skill nmr-structure-elucidator
+npx skills add AI4Chem/ChemClaw --skill nmr-structure-elucidator
 ```
 
 List skills from this package:
 
 ```bash
-npx skills add little1d/ChemClaw --list
+npx skills add AI4Chem/ChemClaw --list
 ```
 
 ## Repository Layout
