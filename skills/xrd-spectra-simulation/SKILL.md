@@ -24,16 +24,16 @@ conda activate spec
 cd xrd-spectra-simulation
 pip install -r requirements.txt
 
-python xrd_spectra_simulation.py 1100157.cif
+python xrd_spectra_simulation.py example/1100157.cif
 ```
 
-- 请在 skill 目录内执行；仓库内附范例 `1100157.cif` 可直接测。
+- 仓库内附范例 `example/1100157.cif` 可直接测试。
 
 ## How to use
 
 ```bash
 cd xrd-spectra-simulation
-python xrd_spectra_simulation.py 1100157.cif
+python xrd_spectra_simulation.py example/1100157.cif
 python xrd_spectra_simulation.py path/to/structure.cif --output /tmp/chemclaw/my_xrd.png
 ```
 

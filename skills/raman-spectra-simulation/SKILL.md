@@ -36,7 +36,7 @@ pip install mlatom numpy matplotlib pyscf geometric rdkit
 
 cd raman-spectra-simulation
 python raman_spectra_simulation.py CCO
-python raman_spectra_simulation.py assets/ethanol_init.xyz
+# optional: python raman_spectra_simulation.py /path/to/structure.xyz
 # optional: python raman_spectra_simulation.py CCO experimental_raman.txt
 ```
 
@@ -51,10 +51,10 @@ cd raman-spectra-simulation
 python raman_spectra_simulation.py CCO
 ```
 
-**XYZ:**
+**XYZ（用户提供坐标文件）:**
 ```bash
 cd raman-spectra-simulation
-python raman_spectra_simulation.py assets/ethanol_init.xyz
+python raman_spectra_simulation.py /path/to/structure.xyz
 ```
 
 **含实验谱对照:**

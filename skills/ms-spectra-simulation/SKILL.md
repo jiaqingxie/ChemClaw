@@ -39,14 +39,14 @@ When returning results to the user, include the generated spectrum image directl
 conda create -n fiora-osx python=3.10 pip -y
 conda activate fiora-osx
 
-cd ms-spectra-simulation/fiora
+cd ms-spectra-simulation/assets/fiora
 pip install .
 
-cd ..
+cd ../..
 python ms_spectra_simulation.py CCO
 ```
 
-- This skill already bundles its own `fiora/` subdirectory.
+- This skill bundles its own `assets/fiora/` subdirectory.
 - Run the script inside the `fiora-osx` environment so `torch`, `rdkit`, and `fiora` are available.
 
 ## How to use (environment already prepared)

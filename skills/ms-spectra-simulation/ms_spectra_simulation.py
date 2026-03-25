@@ -73,7 +73,7 @@ def main() -> None:
     args = parse_args()
 
     skill_dir = Path(__file__).resolve().parent
-    fiora_dir = skill_dir / "fiora"
+    fiora_dir = skill_dir / "assets" / "fiora"
     predict_script = fiora_dir / "scripts" / "predict-single-smiles.py"
     plot_script = fiora_dir / "fiora" / "visualization" / "plot_spectrum.py"
 

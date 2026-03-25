@@ -12,12 +12,12 @@ Usage:
     python raman_spectra_simulation.py <smiles_or_xyz> [exp_txt_file]
     Input: SMILES string (e.g. CCO) or path to XYZ file
 
-Outputs:
-    - output/optimized_geometry.md
-    - output/theoretical_raman.md
-    - output/theoretical_raman.png
-    - output/exp_raman.png (optional, if experimental data provided)
-    - output/comparison_raman.png (optional, if experimental data provided)
+Outputs (under /tmp/chemclaw):
+    - optimized_geometry.md
+    - theoretical_raman.md
+    - theoretical_raman.png
+    - exp_raman.png (optional, if experimental data provided)
+    - comparison_raman.png (optional, if experimental data provided)
 
 """
 
@@ -291,7 +291,7 @@ def main():
         print("Usage: python raman_spectra_simulation.py <xyz_file> [exp_txt_file]")
         print("\nExample:")
         print("  python raman_spectra_simulation.py CCO")
-        print("  python raman_spectra_simulation.py assets/ethanol_init.xyz")
+        print("  python raman_spectra_simulation.py /path/to/structure.xyz")
         print("  python raman_spectra_simulation.py CCO exp.txt")
         sys.exit(1)
     

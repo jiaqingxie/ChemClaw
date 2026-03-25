@@ -20,8 +20,8 @@ Use this skill when the user provides a **SMILES** or **XYZ file** (coordinates)
 - `/tmp/chemclaw/optimized_geometry.md`
 - `/tmp/chemclaw/theoretical_ir.md`
 - `/tmp/chemclaw/theoretical_ir.png`
-- `/tmp/chemclaw/exp_ir.png` (optional)
-- `/tmp/chemclaw/comparison_ir.png` (optional)
+- `/tmp/chemclaw/exp_ir.png` (可选，提供实验数据时)
+- `/tmp/chemclaw/comparison_ir.png` (可选，提供实验数据时)
 
 ## New environment (from zero)
 
@@ -33,11 +33,11 @@ pip install mlatom numpy matplotlib pyscf geometric rdkit
 
 cd ir-spectra-simulation
 python ir_spectra_simulation.py CCO
-python ir_spectra_simulation.py assets/ethanol_init.xyz
+# optional: python ir_spectra_simulation.py /path/to/structure.xyz
 # optional: python ir_spectra_simulation.py CCO exp.txt
 ```
 
-- 请在 skill 目录内执行脚本，否则 `output/` 路径不对。
+- 请在 skill 目录内执行脚本（`cd ir-spectra-simulation`）。
 - macOS 若仍误用 MLatom 内建 Linux 版 xTB，可确保 `which xtb` 指向 conda 的 `xtb`（必要时 `export PATH="$CONDA_PREFIX/bin:$PATH"`）。
 
 ## How to run（已装好环境时）
@@ -48,9 +48,9 @@ cd ir-spectra-simulation
 python ir_spectra_simulation.py CCO
 ```
 
-### XYZ
+### XYZ（用户提供坐标文件）
 ```bash
 cd ir-spectra-simulation
-python ir_spectra_simulation.py assets/ethanol_init.xyz
+python ir_spectra_simulation.py /path/to/structure.xyz
 ```
 
