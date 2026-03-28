@@ -5,7 +5,7 @@
 安装方式：
 
 ```bash
-npx skills add AI4Chem/ChemClaw
+npx skills add InternScience/ChemClaw
 ```
 
 ## Contribution Guide
@@ -17,7 +17,7 @@ npx skills add AI4Chem/ChemClaw
 ```bash
 git clone https://github.com/<your-username>/ChemClaw
 cd ChemClaw
-git remote add upstream https://github.com/AI4Chem/ChemClaw
+git remote add upstream https://github.com/InternScience/ChemClaw
 ```
 
   - 同步主分支并创建功能分支：

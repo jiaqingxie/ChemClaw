@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/chemclaw.png" alt="ChemClaw Logo" />
+  <img src="./assets/chemclaw.png" alt="ChemClaw Logo" width="320" />
 </p>
 
 <p align="center">
@@ -15,33 +15,33 @@
   <a href="https://clawhub.ai">
     <img src="https://img.shields.io/badge/ClawHub-26_skills-orange" alt="ClawHub Skills" />
   </a>
-  <a href="https://github.com/AI4Chem/ChemClaw/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/AI4Chem/ChemClaw?color=c4f042&labelColor=black&style=flat-square" alt="Contributors" />
+  <a href="https://github.com/InternScience/ChemClaw/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/InternScience/ChemClaw?color=c4f042&labelColor=black&style=flat-square" alt="Contributors" />
   </a>
-  <a href="https://github.com/AI4Chem/ChemClaw/commits/main">
-    <img src="https://img.shields.io/github/last-commit/AI4Chem/ChemClaw?color=c4f042&labelColor=black&style=flat-square" alt="Last commit" />
+  <a href="https://github.com/InternScience/ChemClaw/commits/main">
+    <img src="https://img.shields.io/github/last-commit/InternScience/ChemClaw?color=c4f042&labelColor=black&style=flat-square" alt="Last commit" />
   </a>
-  <a href="https://github.com/AI4Chem/ChemClaw/stargazers">
-    <img src="https://img.shields.io/github/stars/AI4Chem/ChemClaw?labelColor=black&style=flat-square&color=ffcb47" alt="GitHub stars" />
+  <a href="https://github.com/InternScience/ChemClaw/stargazers">
+    <img src="https://img.shields.io/github/stars/InternScience/ChemClaw?labelColor=black&style=flat-square&color=ffcb47" alt="GitHub stars" />
   </a>
 </p>
 
 ## Install
 
 ```bash
-npx skills add AI4Chem/ChemClaw
+npx skills add InternScience/ChemClaw
 ```
 
 Install only one skill:
 
 ```bash
-npx skills add AI4Chem/ChemClaw --skill mol-3d-viewer
+npx skills add InternScience/ChemClaw --skill mol-3d-viewer
 ```
 
 List skills from this package:
 
 ```bash
-npx skills add AI4Chem/ChemClaw --list
+npx skills add InternScience/ChemClaw --list
 ```
 
 ## Skills Catalog
